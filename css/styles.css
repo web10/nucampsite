@@ -1,69 +1,56 @@
 body {
-    font-family: "Open Sans", sans-serif;
-    background-color: beige;
-}
+  font-family: "Open Sans", sans-serif;
+  background-color: beige; }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
-}
+  font-family: "Lobster", cursive; }
 
 header h2 {
-    color: #cdc8ff;
-    
-}
+  color: brown; }
 
 h2 {
-    // color: #3046c5;
-    color: brown;
-}
+  color: brown; }
 
 .site-footer {
-    background-image: linear-gradient(#cec8ff, white);
-    padding: 20px 0;
-}
+  background-image: linear-gradient(#ffbf00, #ffff00);
+  padding: 20px 0; }
 
 .jumbotron {
-    padding: 30px;
-    // background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
-    background-image: linear-gradient(to right, #ff4000, #ff8000, #ffbf00, #ffff00, #ffbf00, #ff8000, #ff4000);
-    color: white;
-    margin: 0;
-}
+  padding: 30px;
+  background-image: linear-gradient(to right, #ff4000, #ff8000, #ffbf00, #ffff00, #ffbf00, #ff8000, #ff4000);
+  color: brown;
+  margin: 0; }
 
 .breadcrumb {
-    background-color: beige;
-}
+  background-color: beige; }
+
 .row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
-}
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
 
 .outline {
-    border: solid 3px red;
-}
+  border: solid 3px red; }
 
 .navbar {
-    // background-color: #901cad;
-    background-color: brown;
-}
+  background-color: brown; }
 
 .tab-content {
-    border: 1px solid #ddd;
-    border-top: none;
-    padding: 10px;
-}
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 10px; }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-}
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-    // border: solid #5637dd;
-    border: solid brown
+  border: solid brown; }
 
-}
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
 
 .brown {
-    color: brown;
-}
+  color: brown; }

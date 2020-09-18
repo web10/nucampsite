@@ -1,0 +1,90 @@
+$color-primary: #3046c5;
+$color-secondary: #5637dd;
+$color-pale: beige;
+$color-mid: #901cad;
+$color-dark: brown;
+$color-black-transparent: rgba(0,0,0,0.5);
+
+$gradient-red: #ff4000;
+$gradient-orange: #ff8000;
+$gradient-orange-yellow: #ffbf00;
+$gradient-yellow: #ffff00;
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: $color-pale;
+}
+
+h1, h2, h3 {
+    font-family: $header-font;
+}
+
+header h2 {
+    color: $color-dark;
+    
+}
+
+h2 {
+    // color: #3046c5;
+    color: $color-dark;
+}
+
+.site-footer {
+    background-image: linear-gradient($gradient-orange-yellow, $gradient-yellow);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    // background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+    background-image: linear-gradient(to right, $gradient-red, $gradient-orange, $gradient-orange-yellow, $gradient-yellow, $gradient-orange-yellow, $gradient-orange, $gradient-red);
+    color: $color-dark;
+    margin: 0;
+}
+
+.breadcrumb {
+    background-color: $color-pale;
+}
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.outline {
+    border: solid 3px red;
+}
+
+.navbar {
+    // background-color: #901cad;
+    background-color: $color-dark;
+}
+
+.tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+
+.carousel {
+    border: solid $color-dark;
+
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.brown {
+    color: $color-dark;
+}
